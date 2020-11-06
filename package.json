@@ -1,14 +1,14 @@
 {
-  "name": "kitt",
+  "name": "@ff-lang/kitt",
   "version": "0.0.1",
   "description": "kitt terminal",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "kitt.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fernandojerez/ff-kitt.deploy.git"
+  },
+  "bin": {
+    "kitt": "./kitt/kitt.bat"
   },
   "keywords": [
     "kitt",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/fernandojerez/ff-kitt.deploy/issues"
   },
-  "homepage": "https://github.com/fernandojerez/ff-kitt.deploy#readme"
+  "homepage": "https://github.com/fernandojerez/ff-kitt.deploy#readme",
+  "files": [
+    "kitt/**",
+    "kitt.js",
+    "kitt_terminal.js"
+  ]
 }

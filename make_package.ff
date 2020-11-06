@@ -3,6 +3,6 @@ import ff.kitt.archive as archive
 import ff.kitt.os as os
 
 #run {
-    await > kitt:install { false "" "dist" }
+    await > kitt:install { false "" "kitt" }
     "Kitt Package created"
 }
