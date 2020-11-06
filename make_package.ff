@@ -1,0 +1,8 @@
+import ff.kitt.Module as kitt
+import ff.kitt.archive as archive
+import ff.kitt.os as os
+
+#run {
+    await > kitt:install { false "" "dist" }
+    "Kitt Package created"
+}
