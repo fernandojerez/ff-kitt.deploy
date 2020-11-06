@@ -1,0 +1,23 @@
+{
+  "name": "kitt",
+  "version": "0.0.1",
+  "description": "kitt terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandojerez/ff-kitt.deploy.git"
+  },
+  "keywords": [
+    "kitt",
+    "terminal"
+  ],
+  "author": "@fernandojerez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fernandojerez/ff-kitt.deploy/issues"
+  },
+  "homepage": "https://github.com/fernandojerez/ff-kitt.deploy#readme"
+}
