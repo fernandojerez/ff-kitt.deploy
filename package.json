@@ -1,6 +1,6 @@
 {
   "name": "@ff-lang/kitt",
-  "version": "0.0.1",
+  "version": "0.1.4",
   "description": "kitt terminal",
   "main": "kitt.js",
   "repository": {
@@ -8,7 +8,9 @@
     "url": "git+https://github.com/fernandojerez/ff-kitt.deploy.git"
   },
   "bin": {
-    "kitt": "./kitt/kitt.bat"
+    "kitt": "./kitt_launcher.js",
+    "kitt_terminal": "./kitt_terminal_launcher.js",
+    "update_kitt": "./update_kitt_launcher.js"
   },
   "keywords": [
     "kitt",
