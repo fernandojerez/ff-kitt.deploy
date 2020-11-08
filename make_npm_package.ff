@@ -4,5 +4,6 @@ import ff.kitt.os as os
 
 #run {
     await > kitt:install { false "" "kitt" }
-    "Kitt Package created"
+    await > os:exec > "npm publish"
+    "Kitt Npm Package created"
 }

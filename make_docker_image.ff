@@ -1,0 +1,13 @@
+import ff.kitt.Module as kitt
+import ff.kitt.os as os
+import ff.kitt.images.kitt as images
+import ff.kitt.resources as res
+
+#run {
+    await > images:base > ["0", "0.1.5", "latest"]
+    await > res:write_string_to { 
+        images:base_file. > to_string
+        "file://Dockerfile"
+    }
+    "Kitt Image created"
+}
