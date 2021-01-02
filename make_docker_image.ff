@@ -4,7 +4,7 @@ import ff.kitt.images.kitt as images
 import ff.kitt.resources as res
 
 #run {
-    await > images:base > ["0", "0.1.5", "latest"]
+    await > images:base > ["0", "0.9.3", "latest"]
     await > res:write_string_to { 
         images:base_file. > to_string
         "file://Dockerfile"
